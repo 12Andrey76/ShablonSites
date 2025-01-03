@@ -21,3 +21,7 @@ nav {
 .nav-item .disabled {
   color: #ffffff;
 }
+
+.card {
+  margin-top: 15px;
+}
