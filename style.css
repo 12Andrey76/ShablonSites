@@ -17,3 +17,7 @@ nav {
 .nav-link {
   color: #ffffff;
 }
+
+ul {
+  margin-right: 100px;
+}
