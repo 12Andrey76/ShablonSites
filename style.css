@@ -18,6 +18,10 @@ nav {
   color: #ffffff;
 }
 
+.nav-item .disabled {
+  color: #ffffff;
+}
+
 ul {
-  margin-right: 100px;
+  margin-right: 190px;
 }
