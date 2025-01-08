@@ -1,0 +1,72 @@
+a {
+  text-decoration: none;
+}
+
+.header {
+  background-color: black;
+  height: 145px;
+  border-radius: 5px;
+}
+
+.header h1 a {
+  padding-top: 20px;
+  color: #ffffff;
+  font-size: 40px;
+}
+
+.header p {
+  color: #6c757d;
+}
+
+.bg-dark {
+  background-color: rgb(2 2 8 / 93%) !important;
+}
+
+.main {
+  min-height: 77vh;
+	margin-bottom: 5%;
+}
+
+.leftimg {
+  float: left;
+  margin: 7px 10px 10px 0;
+}
+.navbar {
+  height: 100%;
+}
+
+.navbar p {
+  color: #6c757d;
+  padding: 25px 115px 0 0;
+
+}
+
+.navbar-brand {
+  font-size: 30px;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+  color: #77e989;
+}
+
+.nav-link {
+  color: #ffffff;
+}
+
+.nav-item .disabled {
+  color: #ffffff;
+}
+
+.card {
+  margin-top: 15px;
+}
+
+footer {
+  background-color: black;
+  height: 100px;
+}
+
+footer h1 {
+  color: beige;
+  padding-top: 25px;
+}
