@@ -31,6 +31,11 @@ a {
   float: left;
   margin: 7px 12px 9px 0;
 }
+
+.text {
+  margin-top: 35px;
+}
+
 .navbar {
   height: 100%;
 }
