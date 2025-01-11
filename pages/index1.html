@@ -13,115 +13,29 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous" defer></script>
 
+    <script src="../assets/js/loadComponent.js" defer></script>
+
   </head>
   <body>
-
-    <div class="container-fluid header d-none d-md-block">
-
-      <div class="container">
-
-        <h1><a href="../index.html">ShablonSite</a></h1>
-
-        <p>ShablonSite</p>
-
-        <ul class="nav nav-pills justify-content-end">
-
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="../index.html">index</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link active" href="#">index1</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="index2.html">index2</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="index3.html">index3</a>
-          </li>
-
-        </ul>
-
-      </div>
-
-    </div>
-
-    <div class="d-md-none d-sm-block">
-
-      <nav class="navbar navbar-dark bg-dark">
-
-        <div class="container">
-
-          <a class="navbar-brand" href="#">Bootstrap demo</a>
-
-          <p>Bootstrap demo</p>
-
-          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
-
-            <div class="offcanvas-header">
-
-              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
-
-              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-
-            </div>
-
-            <div class="offcanvas-body">
-
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-
-                <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="../index">index</a>
-                </li>
-
-                <li class="nav-item">
-                  <a class="nav-link active" href="#">index1</a>
-                </li>
-
-                <li class="nav-item">
-                  <a class="nav-link" href="index2.html">index2</a>
-                </li>
-
-                <li class="nav-item">
-                  <a class="nav-link" href="index3.html">index3</a>
-                </li>
-                
-              </ul>
-
-            </div>
-          </div>
-        </div>
-      </nav>
-
-    </div>
-
+<!-- =========== fluid start ========= -->
+    <div id="header-container"></div>
+<!-- =========== fluid end ========= -->
+<!-- =========== nav start ========= -->
+    <div id="nav-container"></div>
+<!-- =========== nav end ========= -->
     <div class="main">
+      <div class="container">
+        <div class="row">  
+          <div class="col-md-8 order-2"> 
+<!-- =========== form start ========= --> 
+              <div id="form-container"></div>
+<!-- =========== form end ========= -->
 
-      <div class="container text-center">
-
-        <div class="row">
-  
-          <div class="col-md-8 order-2">
-  
-              <form class="d-flex mt-3" role="search">
-  
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-  
-                <button class="btn btn-success" type="submit">Search</button>
-  
-              </form>
-
-            <h2>IMG 1</h2>
+            <h2 class="logo">IMG 1</h2>
 
             <div class="clearfix text">
               
-              <a href="pages/index1.html"><img src="https://i1.wampi.ru/2025/01/05/14863d7199bb5a353.th.jpg" alt="album1" class="rounded col-md-6 float-md-end mb-3 ms-md-3" alt="..."></a>
+              <img src="https://i1.wampi.ru/2025/01/05/14863d7199bb5a353.th.jpg" alt="album1" class="rounded col-md-6 float-md-end mb-3 ms-md-3" alt="...">
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, dolores corporis. Dolores, reprehenderit, sed similique inventore alias deleniti soluta, optio quae ducimus id recusandae quasi architecto fuga cupiditate repellat. Voluptas, necessitatibus tempora harum voluptatibus, illum nisi doloremque autem deleniti aliquam consequatur alias ducimus nulla labore sed minus illo odio. Nihil illo explicabo fugit sit. Corrupti repellat, animi molestias quam autem magni ipsa, error earum ad perspiciatis velit! Aspernatur, voluptatum quos perspiciatis inventore magni quas quidem numquam fugit eius, illum sapiente ea quod totam, voluptas dolor ex quia dolores ut. Optio ullam incidunt esse rerum possimus nesciunt molestias fugit atque dolor corrupti quod modi quaerat unde reiciendis adipisci debitis at consequatur eos minus, deleniti enim sapiente deserunt. Ut nam, ipsam dolorem, eos ratione et excepturi optio iste aperiam officia tempore iusto ex natus laboriosam. Reiciendis recusandae fuga nesciunt placeat totam eos, quo eum repellat esse neque, expedita ad? Pariatur nam neque quisquam? Ad assumenda sint tempore eum distinctio deleniti vero praesentium eos quas quaerat reprehenderit amet, culpa excepturi perspiciatis soluta ullam alias iure voluptates ipsam cum. Voluptates voluptas quod quas a laudantium dolores autem praesentium cupiditate culpa perspiciatis vero assumenda obcaecati, ipsam itaque quibusdam rem. Maxime adipisci laborum dolor reprehenderit eos.
               </p>
@@ -129,83 +43,15 @@
             </div>
   
           </div>
-          <div class="col-md-4 d-none d-md-block">
-  
-            <div class="card">
-  
-              <div class="card-body">
-                This is some text within a card body.
-              </div>
-  
-            </div>
-  
-            <div class="card">
-  
-              <div class="card-body">
-                This is some text within a card body.
-              </div>
-  
-            </div>
-  
-            <div class="card">
-  
-              <div class="card-body">
-                This is some text within a card body.
-              </div>
-  
-            </div>
-  
-            <div class="card">
-  
-              <div class="card-body">
-                This is some text within a card body.
-              </div>
-  
-            </div>
-
-            <div class="card">
-  
-              <div class="card-body">
-                This is some text within a card body.
-              </div>
-  
-            </div>
-  
-            <div class="card">
-  
-              <div class="card-body">
-                This is some text within a card body.
-              </div>
-  
-            </div>
-  
-            <div class="card">
-  
-              <div class="card-body">
-                This is some text within a card body.
-              </div>
-  
-            </div>
-  
-            <div class="card">
-  
-              <div class="card-body">
-                This is some text within a card body.
-              </div>
-  
-            </div>
-  
-          </div>
-  
-        </div>
-  
+          
+          <!-- =========== Sidebar start ========= -->
+          <div id="Sidebar-container"  class="col-md-4 d-none d-md-block"></div>
+<!-- =========== Sidebar end ========= -->
+        </div>  
       </div>
-
     </div>
-
-    <footer class="text-center">
-      <h1>ShablonSite</h1>
-    </footer>
-
+<!-- =========== footer start ========= -->
+    <div id="footer-container"></div>
+<!-- =========== footer end ========= -->
   </body>
 </html>
